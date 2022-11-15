@@ -1,0 +1,11 @@
+.wrapper ::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  height: fit-content;
+  width: 33.33%;
+  float: left;
+}

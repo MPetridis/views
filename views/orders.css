@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(216, 216, 216);
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 20%;
+  margin: 2.5%;
+  display: block;
+  text-align: center;
+  font-family: arial;
+  float: left;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.menu{
+   margin-top: 20%;
+   
+}
+.card button:hover {
+  opacity: 0.7;
+}
+table {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 4%;
+    display: block;
+    text-align: center;
+    font-family: arial;
+    font-size: small;
+    float: left;
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: rgb(214, 77, 77);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+  }
+  .menu{
+    margin-top: 30%;
+ }
+}
